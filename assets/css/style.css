@@ -1,0 +1,57 @@
+<style>
+
+.placeholder{
+    color: orange;
+}
+
+#titleCard{
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 24px;
+    width: 190px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#instructionsCard{
+    clear: both;
+    color: green;
+    background-color: tan;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#goalCard{
+    background-color: green;
+    margin-left: 5px;
+}
+
+#resultsCard{
+    background-color: lightskyblue;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.crystalImage{
+    float: left;
+    height: 100px;
+    margin-left: 5px;
+}
+
+#displayCard{
+    clear: both;
+    color: white;
+    background-color: teal;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#currentScoreCard{
+    background-color: teal;
+    margin-left: 5px;
+}
+</style>
