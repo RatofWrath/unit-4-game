@@ -29,17 +29,125 @@ $(document).ready(function(){
 
     $('#red').on("click", function(){
         userTotal += redValue;
+        document.getElementById('currentScoreCard').innerHTML = userTotal;
+
+        if(userTotal === goal){
+            alert("You Win!");
+            wins++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
+
+        else if(userTotal >= goal){
+            alert("You Lose");
+            losses++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
     })
 
     $('#blue').on("click", function(){
         userTotal += blueValue;
+        document.getElementById('currentScoreCard').innerHTML = userTotal;
+
+        if(userTotal === goal){
+            alert("You Win!");
+            wins++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
+
+        else if(userTotal >= goal){
+            alert("You Lose");
+            losses++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
     })
 
     $('#yellow').on("click", function(){
         userTotal += yellowValue;
+        document.getElementById('currentScoreCard').innerHTML = userTotal;
+
+        if(userTotal === goal){
+            alert("You Win!");
+            wins++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
+
+        else if(userTotal >= goal){
+            alert("You Lose");
+            losses++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
     })
 
     $('#green').on("click", function(){
         userTotal += greenValue;
+        document.getElementById('currentScoreCard').innerHTML = userTotal;
+
+        if(userTotal === goal){
+            alert("You Win!");
+            wins++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
+
+        else if(userTotal >= goal){
+            alert("You Lose");
+            losses++;
+            updateResults();
+            userTotal = 0;
+            document.getElementById('currentScoreCard').innerHTML = userTotal;
+            goal = generateGoal();
+            redValue = generateGemValue();
+            blueValue = generateGemValue();
+            yellowValue = generateGemValue();
+            greenValue = generateGameValue();
+        }
     })
 });
